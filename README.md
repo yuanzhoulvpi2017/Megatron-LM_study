@@ -1,4 +1,17 @@
 
+# 配置环境
+可以使用两种方式，一种是使用pip的形式进行安装，一种是使用conda环境安装。
+
+## pip环境安装
+
+`pip install -r requirements.txt`
+
+
+## conda 配置环境
+
+1. 配置环境的文件: `environment.yaml`
+2. 使用我提供的conda配置文件，创建新环境： `conda env create -n test_megatron -f environment.yaml` 
+
 
 
 
