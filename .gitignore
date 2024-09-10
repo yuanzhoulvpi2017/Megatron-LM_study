@@ -6,6 +6,7 @@ build
 *~
 slurm*
 logs
-.vscode
+# .vscode
 local/
 .gitmodules
+ckpt
