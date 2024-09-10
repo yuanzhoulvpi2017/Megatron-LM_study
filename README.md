@@ -16,6 +16,18 @@
 
 
 
+# 01
+
+参考这个教程: [https://docs.nvidia.com/megatron-core/developer-guide/latest/user-guide/index.html#quick-start](https://docs.nvidia.com/megatron-core/developer-guide/latest/user-guide/index.html#quick-start)
+
+```bash
+git clone https://github.com/NVIDIA/Megatron-LM.git
+cd Megatron-LM/examples
+NUM_GPUS=2
+torchrun --nproc-per-node $NUM_GPUS run_simple_mcore_train_loop.py
+
+```
+
 
 
 
