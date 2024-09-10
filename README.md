@@ -4,7 +4,8 @@
 
 ## pip环境安装
 
-`pip install -r requirements.txt`
+1. `pip install -r requirements.txt`
+2. 注意，这里列的只是几个必须需要安装的包，像是torch之类的，也都要安装好
 
 
 ## conda 配置环境
